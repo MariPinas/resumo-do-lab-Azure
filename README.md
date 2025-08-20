@@ -96,4 +96,45 @@ Após a introdução aos conceitos de nuvem, aprofundei meus estudos na criaçã
 ## Conhecimentos Fundamentais
 - O Azure fornece flexibilidade para escolher o tamanho da VM conforme a necessidade.  
 - Segurança deve ser considerada desde o início, evitando abrir portas desnecessárias.  
-- SLA depende das escolhas de configuração — desde uma VM simples até arquiteturas mais resilientes.   
+- SLA depende das escolhas de configuração — desde uma VM simples até arquiteturas mais resilientes.
+
+---
+
+# Parte 3 - Configuração Básica de Banco de Dados no Azure
+
+Seguindo os estudos práticos em nuvem, comecei a explorar a criação de **instâncias de Banco de Dados no Azure**.  
+O objetivo foi aprender de forma básica como configurar e acessar um banco de dados na plataforma.
+
+## Etapas para Criar uma Instância de Banco de Dados
+1. **Acessar o Portal Azure**  
+   Entrei no portal e busquei o recurso de "Banco de Dados SQL".  
+
+2. **Escolha da Configuração Básica**  
+   - **Nome do banco de dados**: dei um nome simples para teste "bd".  
+   - **Servidor**: criei um servidor novo ou utilizei um existente, configurando região e autenticação.  
+   - **Plano de serviço**: selecionei a camada básica (Basic) para reduzir custos enquanto estudava.  
+
+3. **Autenticação e Segurança**  
+   - Configurei usuário e senha para acesso ao banco.  
+   - Habilitei **firewall** para permitir acesso do meu IP local.  
+
+4. **Revisão e Criação**  
+   Revisei as configurações e criei o banco de dados. Em poucos minutos ele estava disponível para conexão.  
+
+## O que Aprendi na Prática
+- Como **conectar** ao banco usando o **SQL Server Management Studio (SSMS)** ou ferramentas integradas no portal Azure.  
+- Diferença entre camadas de serviço (Basic, Standard e Premium) e impacto no **custo e desempenho**.  
+- Noção de **elasticidade**, podendo aumentar a performance conforme a demanda.  
+- A importância de **firewalls e regras de acesso** para proteger os dados.  
+
+## Experiência Obtida
+- Criar um banco de dados no Azure é rápido e não exige hardware próprio.  
+- Entendi como funciona o modelo **PaaS**, onde o Azure gerencia grande parte da infraestrutura do banco.  
+- Percebi que mesmo configurando uma instância básica, já é possível realizar consultas, testes e desenvolvimento local.  
+
+## Por que Utilizar Banco de Dados no Azure
+- **Praticidade**: criação rápida sem necessidade de instalar servidores locais.  
+- **Segurança**: autenticação e firewall integrados.  
+- **Escalabilidade**: fácil aumentar recursos conforme o banco cresce.  
+- **Integração**: conecta facilmente com VMs, aplicativos e outros serviços da plataforma.  
+- **Aprendizado**: ótimo ambiente para estudantes testarem SQL e gerenciamento de dados em nuvem.  
