@@ -1,4 +1,4 @@
-# Resumo introducao a computacao em nuvem
+# Resumo - Computação em Nuvem
 Este repositório contém um resumo introdutório sobre conceitos fundamentais de computação em nuvem, destacando pontos importantes para iniciantes.
 
 ## O que é Computação em Nuvem
